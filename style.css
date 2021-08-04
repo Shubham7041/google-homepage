@@ -1,0 +1,17 @@
+body,
+input,
+button {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+}
+li {
+  list-style-type: none;
+}
+.top-nav {
+  overflow: auto;
+}
+.top-nav a {
+  float: right;
+  padding: 6px;
+}
