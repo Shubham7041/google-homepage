@@ -13,13 +13,14 @@ img {
 .search {
   background: #fff;
   display: flex;
+  align-items: center;
   border: 1px solid #dfe1e5;
   box-shadow: none;
   border-radius: 24px;
   z-index: 3;
   height: 44px;
   margin: 20px auto;
-  width: 500px;
+  width: 600px;
 }
 
 .searchbar {
@@ -27,7 +28,7 @@ img {
   outline: none;
   border: none;
   border-radius: 24px;
-  width: 100%;
+  width: 82%;
 }
 .buttons {
   margin: 30px 0 0 600px;
@@ -49,6 +50,10 @@ img {
   cursor: pointer;
   user-select: none;
 }
+.material-icons {
+  color: #616263;
+  margin-left: 10px;
+}
 
 #lang {
   color: #3c4043;
@@ -64,15 +69,37 @@ li {
   list-style-type: none;
 }
 .top-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   padding: 8px 12px;
   overflow: auto;
 }
 .top-nav a {
   font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
-  float: right;
   padding: 6px 8px;
 }
-
+.top-nav i {
+  padding: 6px 8px;
+}
 .top-nav a:hover {
   text-decoration: underline;
+}
+.footer {
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 40px;
+  position: fixed;
+  background-color: #f2f2f2;
+  justify-content: space-around;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #70757a;
+}
+.footer-child {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
 }
