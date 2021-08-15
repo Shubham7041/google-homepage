@@ -90,16 +90,19 @@ li {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 40px;
+  padding: 14px 0px;
   position: fixed;
   background-color: #f2f2f2;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 14px;
   font-family: arial, sans-serif;
   color: #70757a;
 }
 .footer-child {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 0 20px;
+}
+.child {
+  padding: 8px 10px;
 }
